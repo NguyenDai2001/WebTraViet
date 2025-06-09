@@ -596,8 +596,7 @@
 #SECTION8 .image-item a{
     position: absolute;
     bottom: 15px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 20px;
     background-color: #72080600;
     color: #ffffff;
     font-size: 25px;
