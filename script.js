@@ -125,3 +125,5 @@ checkScrollToElement("SECTION1", () => addAnimation("fade-in-left"))
 checkScrollToElement("SECTION2", () => addAnimation("fade-in-left"))
 checkScrollToElement("SECTION2", ZoomImage)
 checkScrollToElement("SECTION3", () => addAnimation("fade-in-left"))
+
+checkScrollToElement("FOOTER", () => addAnimation("slide-up"))
