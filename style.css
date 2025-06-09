@@ -558,7 +558,79 @@
   object-fit: cover;
   filter: brightness(0.8);
 }
+   
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* SECTION 8:  */
+#SECTION8{
+    background-color: #720706;
+    padding-top: 30px;
+}
+
+#SECTION8 .list-image-link{
+    display: flex;
+    gap: 10px;
+}
+
+#SECTION8 .list-image-link{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#SECTION8 .image-item{
+    position: relative;
+}
+#SECTION8 .image-item .wrap-image{
+    width: 350px;
+    height: 400px;
     
+}
+#SECTION8 .image-item .wrap-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#SECTION8 .image-item a{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #72080600;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+#SECTION8 .abum-image{
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    background-color: #000000;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+#SECTION8 .abum-image .abum-image-item{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+#SECTION8 .abum-image .abum-image-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
 
 /* ----------------------------------------------------------------------------------------- */
 /* FOOTER: CHÂN TRANG  */
