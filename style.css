@@ -1,0 +1,657 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* HEAEDER */
+/* SECTION 1:  CÁCH CHÚNG TÔI HIỂU VỀ TRÀ */
+/* SECTION 2:  VIETNAM SPECIALTY TEA */
+
+
+
+/* HEAEDER */
+/* Đầu trang */
+#HEADER{
+    height: 760px;
+    position: relative;
+    background-color: black;
+}
+#HEADER_VIDEO {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.8);
+    object-fit: cover;
+}
+.header-nemu{
+    position:absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width:100%; 
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-icon{
+    color: white;
+    font-size:25px;
+}
+.menu-left{
+    display:flex;
+}
+.menu-left-language{
+    margin-left: 30px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.menu-left-language-text{
+    margin-left: 5px;
+    color: #ffffff;
+}
+.menu-right .menu-icon{
+    margin-left: 20px;
+    
+}
+.logo img{
+    filter: brightness(0) invert(1);
+    width: 100px;
+}
+
+/* Phần giới thiệu  */
+/* Phần hiển thị thông tin giới thiệu */
+.header-introduce{
+    position:absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width:100%; 
+    display: flex;
+}
+.header-introduce .introduce{
+    width: 730px;
+    color: white;
+}
+.header-introduce .introduce .introduce-tag{
+    font-size: 15px;
+}
+.header-introduce .introduce h2{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.header-introduce .introduce h2 span{
+    color: rgb(114, 7, 6);
+}
+.header-introduce .introduce .introduce-text{
+    font-size: 17px;
+    margin-bottom: 30px;
+
+
+}
+.header-introduce .introduce a{
+    display: flex;
+    align-items: center;
+    background-color: #720706;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    width: max-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.header-introduce .introduce a svg{
+    margin-left: 10px;
+}
+
+/* Phần thanh quận */
+.header-introduce .introduce-scroll{
+    display: flex;
+    align-items: start;
+}
+.header-introduce .introduce-scroll .introduce-scroll-wrap{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    display: flex;
+}
+.header-introduce .introduce-scroll .introduce-scroll-wrap i{
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* SECTION 1:  CÁCH CHÚNG TÔI HIỂU VỀ TRÀ */
+/* Phần nội dung */
+.section-1{
+    color: #f9f4e8;
+    background-color: #720706;
+    padding: 70px 0;
+}
+.section-1-content{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.section-1-title{
+    width: 60%;
+}
+.section-1-title h1{
+    font-size: 70px;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+.see-more-button{
+     display: flex;
+    align-items: center;
+    background-color: #f9f4e8;
+    color: #720706;
+    font-size: 12px;
+    font-weight: 900;
+    width: max-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.see-more-button svg{
+    margin-left: 10px;
+}
+.section-1-text{
+    width: 36%;
+    font-size: 17px;
+    
+}
+.section-1-text p{
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+/* Phần hiển thị banner */
+.section-1-list-banner{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+.section-1-banner-item{
+    width: 25%;
+    position: relative;
+}
+.section-1-banner-item img{
+    width: 100%;
+}
+.section-1-banner-item b{
+    width: 100%;
+    font-size: 25px;
+    transform: translateY(50px);
+    opacity: 0;
+    position:absolute;
+    bottom: 18px;
+    left: 18px;
+    z-index: 1;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* SECTION 2:  VIETNAM SPECIALTY TEA */
+/* Phần nội dung */
+#SECTION2{
+    background-color: #720706;
+    background-image: url(/src/image/section_2_img.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.section-2-content{
+    padding: 70px 0;
+    color: #ffffff;
+}
+.section-2-content h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.section-2-content h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+}  
+
+.section-2-content p{
+    text-indent: 50px; 
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* SECTION 3:  ĐẠI DANH TRÀ VIỆT */
+/* Phần nội dung */
+#SECTION3{
+    background-color: #720706;
+    background-image: url(/src/image/section_3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 540px;
+    z-index: 10;
+}
+.section-3-content{
+    padding: 70px 0;
+    color: #ffffff;
+    position: relative;
+}
+.section-3-content-wrap{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(0, 50%);
+}
+.section-3-content h1{
+    color: #720706;
+    font-size: 47px;
+    margin-bottom: 30px;
+}
+
+.section-3-content p{
+    margin-bottom: 40px;
+}
+
+.section-3-content .see-more-button{
+    position: absolute;
+    bottom: -350px;
+    right: 0px;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* SECTION 4:  CÁC LOẠI TRÀ */
+#SECTION4{
+    position: relative;
+    background-color: #720706;
+    padding-bottom: 220px;
+    z-index: 1;
+}
+.section-4-wrap{
+    display: flex;
+}
+.section-4-wrap .content{
+    width: 50%;
+    padding-bottom: 120px;
+    z-index: 3;
+}
+
+
+.section-4-wrap .content-1{
+    background-color: #f9f4e8;
+    color: #720706;
+}
+.section-4-wrap .content-2{
+    background-color: #720706;
+}
+.section-4-wrap .content-text{
+    margin-top: 70px;
+}
+.section-4-wrap .content-1 .content-text{
+    margin-left: 70px;
+    margin-right: 140px;
+}
+
+.section-4-wrap .content-text .wrap-button{
+   display: flex;
+   justify-content: center;
+}
+.section-4-wrap .content-text .wrap-button a{
+   display: flex;
+   justify-content: center;
+   font-size: 10px;
+   padding: 5px 15px;
+   margin: 20px 0px;
+} 
+.section-4-wrap .content-1 .content-text .wrap-button a{
+   background-color: #720706;
+   color: #f9f4e8;
+}
+.section-4-wrap .content-2 .content-text{
+    margin-left: 140px;
+    margin-right: 70px;
+    color: #f9f4e8;
+}
+
+/* hiển thị ảnh mẫu  */
+.show-image{
+    background-color: #720706;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+.section-4-wrap .content-2 .show-image{
+    background-color: #f9f4e8;
+}
+.show-image img{
+    width: 60px;
+    border-radius: 15px;
+    margin: 0 10px;
+}
+
+/* chèn ảnh gia giữa  */
+#SECTION4 .image{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#SECTION4 .image img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* hiển thịvideo  */
+#SECTION4-VIDEO{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    z-index: 2;
+}
+#SECTION4-VIDEO video{
+    width: 1200px;
+}
+#SECTION4-VIDEO h2{
+    position: absolute;
+    width: max-content;
+    font-size: 30px;
+    bottom:100px ;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    color: #ffffff;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* SECTION 5:  mô hình trà cho giới trẻ - Hà Nội */
+#SECTION5{
+    background-color: #000000;
+    background-size: 90% 1200px;
+    color: #ffffff;
+    z-index: 1;
+
+}
+#SECTION5 .container{
+     position: relative;
+     padding: 20px 0;
+}
+#SECTION5 .image-wrapper {
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+}
+
+#SECTION5 .image-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+#SECTION5 .wrap{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 10;
+}
+#SECTION5 h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#SECTION5 p{
+    text-indent: 40px;
+    width: 750px;
+}
+#SECTION5 a{
+    margin-top: 40px;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* SECTION 6:  */
+#SECTION6{
+    background-color: #720706;
+}
+#SECTION6 .container{
+        padding: 30px 60px;
+}
+#SECTION6 .wrap{
+    display: flex;
+    justify-content: space-between;
+}
+#SECTION6 .image-wrapper {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+}
+
+#SECTION6 .image-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+#SECTION6 p{
+    width: 65%;
+    color: #ffffff;
+    text-indent: 40px;
+}
+#SECTION6 .wrap-button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* SECTION 7:  */
+#SECTION7{
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+#SECTION7 .content-wrap {
+  position: relative;
+  padding: 10px 0;
+}
+#SECTION7 .content-wrap p,
+#SECTION7 .content-wrap h2,
+#SECTION7 .content-wrap .wrap-button{
+    position: absolute;
+    color: #f9f4e8;
+}
+#SECTION7 .content-wrap-1 .title{
+    top:30px;
+    right: 30px;
+}
+#SECTION7 .content-wrap-1 h2{
+    top:55px;
+    right: 30px;
+    font-size: 50px;
+}
+#SECTION7 .content-wrap-1 .text{
+    top:115px;
+    right: 30px;
+    width: 600px;
+}
+#SECTION7 .content-wrap-1 .wrap-button{
+    left: 30px;
+    bottom: 30px;
+}
+
+/* Video 2 */
+#SECTION7 .content-wrap-2 .title{
+    top:30px;
+    left: 30px;
+}
+#SECTION7 .content-wrap-2 h2{
+    top:55px;
+    left: 30px;
+    font-size: 50px;
+}
+#SECTION7 .content-wrap-2 .text{
+    top:115px;
+    left: 30px;
+    width: 600px;
+}
+#SECTION7 .content-wrap-2 .wrap-button{
+    right: 30px;
+    bottom: 30px;
+}
+
+/* video */
+.video-wrapper {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+}
+    
+
+/* ----------------------------------------------------------------------------------------- */
+/* FOOTER: CHÂN TRANG  */
+footer{
+    background-color: #720706;
+     border-top: 1px solid white;
+     color: #ffffff;
+     padding-bottom: 90px;
+}
+footer .container{
+    display: flex;
+}
+footer .container .content-1{
+    width: 50%;
+    padding: 60px 60px 0 0;
+    border: 0 solid white;
+    border-width: 0 1px 1px 0;
+}
+footer .container .content-1 h3{
+    margin: 30px 0;
+
+}
+footer .container .content-1 ul li{
+    margin-bottom: 20px;
+
+}
+
+
+footer .container .content-2{
+    width: 50%;
+    padding-top: 60px;
+    border: 0 solid white;
+    border-width: 0 0px 1px 0;
+}
+footer .container .content-2 .policy{
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+footer .container .content-2 h3{
+     margin: 30px 0;
+}
+footer .container .content-2 .policy .policy-list{
+    width: 70%;
+}
+footer .container .content-2 .policy .policy-list ul li{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+footer .container .content-2 .policy .policy-image{
+    width: 40%;
+}
+footer .container .content-2 .policy .policy-image img{
+    width: 100%;
+}
+/* contact */
+footer .container .content-2 .contact{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+footer .container .content-2 .contact h3{
+    margin-bottom: 10px;
+    
+}
+footer .container .content-2 .contact .input-wrap{
+    position: relative;
+}
+footer .container .content-2 .contact input{
+    width: 450px;
+    padding: 15px 20px; 
+    border-radius: 30px;
+}
+footer .container .content-2 .contact .input-wrap svg{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+/* follow-me */
+footer .container .content-2 .follow-me{
+    background-color: #842726;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+footer .container .content-2 .follow-me strong{
+    font-size: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+footer .container .content-2 .follow-me i{
+    font-size: 35px;
+    margin: 0 10px;
+}
